@@ -1,4 +1,12 @@
-
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
 .card-body:hover{
     background-color: rgb(25, 0, 255);
     color:rgb(96, 233, 153);
@@ -10,6 +18,8 @@
     position: absolute;
     top: 10%;
     left: 25%;
+    border-width: 5px;
+    border-color: black;
     
 }
 
@@ -17,19 +27,28 @@
     font-size: 50px;
     position: absolute;
     top: 55%;
-    left: 20%;
+    left: 10%;
     display:inline
     
     
 }
+#buttons_stopwatch:hover{
+    border-color:chartreuse
+}
 #lap{
     top:20%;
+    text-align: center;
     display: inline-block;
-    left: 40%;
+    left: 27%;
     border-radius: 20%;
     color:black;
     background-color: gray;
     font-size: 30px;
+    padding-top: 10px;
+}
+.lap-body{
+    left: 10%;
+    padding-top: 10px;
 }
 
 .lap-body:hover{
