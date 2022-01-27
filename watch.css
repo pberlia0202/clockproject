@@ -1,0 +1,113 @@
+.card-body:hover{
+    background-color: rgb(25, 0, 255);
+    color:rgb(96, 233, 153);
+    border-color: yellow;
+}
+
+#stopwatch_body {
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    
+}
+
+#buttons_stopwatch {
+    font-size: 50px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    display:inline
+    
+    
+}
+#lap{
+    top:20%;
+    display: inline-block;
+    left: 40%;
+    border-radius: 20%;
+    color:black;
+    background-color: gray;
+    font-size: 30px;
+}
+
+.lap-body:hover{
+    border-radius: 20%;
+    color: yellowgreen;
+
+}
+
+
+
+.start:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+.reset:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+.pause:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+.stp_lap:hover{
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+footer{
+    font-style: normal;
+         font-family:cursive;
+         padding: 10px;
+         background-color: rgb(26, 40, 46);
+         text-align: center;
+         text-decoration: tomato;
+         color: turquoise ;
+         border-radius: 40%;
+         
+   }
+   #main div {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }
+   footer:hover{
+     color: yellowgreen;
+     background-color:rgba(243, 142, 142, 0.288);
+   }
+
+   #show_countdown{
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display:inline
+   }
+
+   #buttons_countdown {
+    font-size: 50px;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    display:inline;
+    
+    
+    
+}
+.btn_resume_cntdwn:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+
+
+.btn_start_cntdwn:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+.btn_reset_cntdwn:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+.btn_pause_cntdwn:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
