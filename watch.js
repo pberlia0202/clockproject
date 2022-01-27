@@ -212,13 +212,20 @@ function limiter(input)
 	
     
 }
-
+var h=document.getElementById('hours').value
+var m=document.getElementById('minutes').value
+var s=document.getElementById('seconds').value
+var h1=h
+var m1=m
+var s1=s
 const remaining_time=document.getElementById('show_countdown')
 	var count_down_status=false
 function start_countdown(){
+	
 	document.getElementById('reset_start_time').style.display="none"
 	document.getElementById('resume_timer').style.display="none"
 	document.getElementById('pause-cntdwn').style.display=""
+	
 	
 	var h=document.getElementById('hours').value
 	var m=document.getElementById('minutes').value
@@ -255,12 +262,7 @@ function start_countdown(){
 
 	}
 }
-var h=document.getElementById('hours').value
-var m=document.getElementById('minutes').value
-var s=document.getElementById('seconds').value
-var h1=h
-var m1=m
-var s1=s
+
 function countdown_cycle(h,m,s)
 {
    //window.alert(  remaining_time.innerText) 
@@ -422,10 +424,11 @@ var temp=0
 stp_lap.addEventListener("click",()=>{
 	const lap=document.createElement("div");
 	temp++
-	lap.innerText='\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+temp+'.'+'\xa0\xa0'+hr+':'+min+':'+sec;
+	lap.innerText='\xa0\xa0\xa0\xa0'+temp+'.'+'\xa0\xa0'+hr+':'+min+':'+sec;
+	
 	
 	if(stoptime==false)
-	laps.appendChild(lap)
+	laps.appendChild(lap);
 	if(rst==true)
     laps.innerHTML="LAPS";
 
