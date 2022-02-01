@@ -184,6 +184,7 @@ function stopwatch_cycle()
 
 function resetStopwatch()
 {
+	temp=0
 	rst=true;
     timer.innerHTML= '\xa0\xa0\xa0\xa0'+"00:00:00";
 	stoptime=true;
@@ -389,6 +390,7 @@ function pause_countdown()
 
 function reset_countdown()
 {
+	
 	document.getElementById('resume_timer').style.display="none"
 	document.getElementById('pause-cntdwn').style.display="none"
 	document.getElementById('reset_start_time').style.display=""
