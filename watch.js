@@ -423,6 +423,7 @@ const stp_lap=document.querySelector(".stp_lap")
 var temp=0
 stp_lap.addEventListener("click",()=>{
 	const lap=document.createElement("div");
+	if(stoptime==false)
 	temp++
 	lap.innerText='\xa0\xa0\xa0\xa0'+temp+'.'+'\xa0\xa0'+hr+':'+min+':'+sec;
 	
